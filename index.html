@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="src/styles/normalize.css">
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-clip</title>
+</head>
+<body>
+    <section class="gradient">
+        <div class="gradient-preview">&nbsp;</div>
+    </section>
+    <section class="toolbar">
+        <div class="gradient-choice">
+            &nbsp;
+        </div>
+        <hr>
+        <div class="gradient-settings">
+            <div class="color"></div>
+            <div class="color-settings">
+                <button class="btn-copy-hex">#DE2B2B</button>
+                <div class="color-choice"></div>
+                <div class="color-transparency"></div>
+            </div>
+            <div class="gradient-list">
+                <div class="gradient-1"></div>
+                <div class="gradient-2"></div>
+            </div>
+            <div class="gradient-type">
+                <div class="gradient-type-linear">
+                    <img src="src/assets/linear-active.svg" alt="">
+                </div>
+                <div class="gradient-type-radial">
+                    <img src="src/assets/radial-inactive.svg" alt="">
+                </div>
+                <div class="gradient-type-linear-input">135°</div>
+                <div class="gradient-type-linear-angle"></div>
+            </div>
+        </div>
+    </section>
+    <section class="css">
+        <div class="css-lines">
+            <p>1</p>
+            <p>2</p>
+        </div>
+        <div class="css-code">
+            <p>
+                <span class="background">
+                    background:
+                </span>
+                rgb(222,43,43);
+            </p>
+            <p>
+                <span class="background">
+                    background:
+                </span>
+                linear-gradient(135deg, rgba(222,43,43,1) 0%, rgba(18,208,220,1) 100%);
+            </p>
+        </div>
+        <div class="css-copy">
+            <a href="" class="css-copy-link">COPY</a>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
